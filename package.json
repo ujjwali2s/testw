@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm run dev",
+    "instal-all":"cd backend && npm install && cd .. && cd frontend && npm install ",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "devDependencies": {
+    "concurrently": "^6.5.1"
+  }
+}
