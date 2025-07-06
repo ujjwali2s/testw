@@ -7,7 +7,7 @@ console.log(arr.reverse())
 
   return (
     <div>
-      
+      hello
     </div>
   )
 }
